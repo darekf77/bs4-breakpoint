@@ -4,7 +4,7 @@ import { Bs4BreakPoint } from './bs4-breakpoints.enum';
 import { Size } from './size.enum';
 
 @Component({
-    selector: 'bs3-breakpoints',
+    selector: 'bs4-breakpoints',
     template: `
         <div class="device-xs hidden-sm-up"></div>
         <div class="device-sm hidden-md-up hidden-xs-down"></div>

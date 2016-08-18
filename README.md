@@ -1,29 +1,29 @@
-## bs3-breakpoint ##
+## bs4-breakpoint ##
 
 
-Detect breakpoint in bootstrap 3 :
+Detect breakpoint in bootstrap 4  :
 
 How to use it
 -------------
 
 **import it**
 
-    import {  Bs3BreakPoint, Bs3Breakpoint } from "bs3-breakpoint/bs3-breakpoint";
+    import {  Bs4BreakPoint, Bs4Breakpoint } from "bs4-breakpoint/bs4-breakpoint";
 
 **include it**
 
     ...
-    directives: [Bs3BreakpointsComponent]
+    directives: [Bs4BreakpointsComponent]
     ...
 
 function in class component
 
-    newBreakpoint(e: Bs3BreakPoint) {
+    newBreakpoint(e: Bs4BreakPoint) {
           // breakpoint detected
     }
 
 in html:
 
-    <bs3-breakpoints (changed)="newBreakpoint($event)" ></bs3-breakpoints>
+    <bs4-breakpoints (changed)="newBreakpoint($event)" ></bs4-breakpoints>
 
 

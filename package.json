@@ -1,6 +1,6 @@
 {
   "name": "bs4-breakpoint",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Detect breakpoint in anuglar2 apps (bootstrap 4 grid) ",
   "main": "karma.conf.js",
   "scripts": {
