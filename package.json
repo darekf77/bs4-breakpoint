@@ -1,7 +1,7 @@
 {
   "name": "bs4-breakpoint",
-  "version": "0.0.3",
-  "description": "Detect breakpoint in anuglar2 apps (bootstrap 4 grid) ",
+  "version": "1.0.0",
+  "description": "Detect breakpoint in anuglar2+ apps (bootstrap 4 grid) ",
   "main": "karma.conf.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/darekf77/bs4-breakpoint.git"
   },
   "keywords": [
-    "angular2",
+    "angular",
     "breakpoints",
     "bootstrap4"
   ],
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/darekf77/bs4-breakpoint/issues"
   },
-  "homepage": "https://github.com/darekf77/bs4-breakpoint#readme"
+  "homepage": "https://github.com/darekf77/bs4-breakpoint#readme",
+  "devDependencies": {
+    "@angular/core": "^4.2.3"
+  }
 }

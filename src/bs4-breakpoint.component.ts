@@ -1,10 +1,13 @@
-import { Component, OnInit, ElementRef, Output, NgZone, EventEmitter } from '@angular/core';
+import {
+    Component, OnInit, ElementRef, Output, NgZone,
+    EventEmitter, HostListener, AfterViewInit
+} from '@angular/core';
 
-import { Bs4BreakPoint } from './bs4-breakpoints.enum';
+import { BreakPoint } from './bs4-breakpoint.enum';
 import { Size } from './size.enum';
 
 @Component({
-    selector: 'bs4-breakpoints',
+    selector: 'bs4-breakpoint',
     template: `
         <div class="device-xs hidden-sm-up"></div>
         <div class="device-sm hidden-md-up hidden-xs-down"></div>
@@ -13,29 +16,25 @@ import { Size } from './size.enum';
         <div class="device-xl hidden-lg-down"></div>
     `, styles: [':host { display:none; } ']
 })
-export class Bs3BreakpointsComponent implements OnInit {
-    @Output() changed: EventEmitter<Bs3BreakPoint> = new EventEmitter<Bs3BreakPoint>();
+export class Bs4BreakpointsComponent implements AfterViewInit {
+    @Output() changed: EventEmitter<BreakPoint> = new EventEmitter<BreakPoint>();
     @Output() resize: EventEmitter<Size> = new EventEmitter<Size>();
 
-    current: Bs4BreakPoint = Bs4BreakPoint.xl;
+    current: BreakPoint = BreakPoint.xl;
     width: number;
     height: number;
-    constructor(private e: ElementRef, ngZone: NgZone) {
+    constructor(private e: ElementRef) { }
 
-        this.changed.next(this.current);
-        window.onresize = () => {
-            ngZone.run(() => {
 
-                this.width = window.innerWidth;
-                this.height = window.innerHeight;
-                if (this.check()) {
-                    this.changed.next(this.current);
-                }
-                this.resize.next({ width: this.width, height: this.height });
-            });
-        };
+    @HostListener('window:resize')
+    onWindowResize() {
+        this.width = window.innerWidth;
+        this.height = window.innerHeight;
+        if (this.check()) {
+            this.changed.emit(this.current);
+        }
+        this.resize.emit({ width: this.width, height: this.height });
     }
-
 
     isVisible(obj): boolean {
         let style = window.getComputedStyle(obj, undefined);
@@ -45,19 +44,19 @@ export class Bs3BreakpointsComponent implements OnInit {
     check(): boolean {
         let t;
         if (this.isVisible(this.e.nativeElement.children[0])) {
-            t = Bs4BreakPoint.xs;
+            t = BreakPoint.xs;
         }
         if (this.isVisible(this.e.nativeElement.children[1])) {
-            t = Bs4BreakPoint.sm;
+            t = BreakPoint.sm;
         }
         if (this.isVisible(this.e.nativeElement.children[2])) {
-            t = Bs4BreakPoint.md;
+            t = BreakPoint.md;
         }
         if (this.isVisible(this.e.nativeElement.children[3])) {
-            t = Bs4BreakPoint.lg;
+            t = BreakPoint.lg;
         }
         if (this.isVisible(this.e.nativeElement.children[4])) {
-            t = Bs4BreakPoint.xl;
+            t = BreakPoint.xl;
         }
         if (t !== this.current) {
             this.current = t;
@@ -68,6 +67,10 @@ export class Bs3BreakpointsComponent implements OnInit {
     }
 
 
-    ngOnInit() { }
+    ngAfterViewInit() {
+        setTimeout(() => {
+            this.onWindowResize();
+        })
+    }
 
 }

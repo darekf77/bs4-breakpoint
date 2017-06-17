@@ -8,22 +8,30 @@ How to use it
 
 **import it**
 
-    import {  Bs4BreakPoint, Bs4Breakpoint } from "bs4-breakpoint/bs4-breakpoint";
+```ts
+@NgModule({
+    imports: [Bs4BreakpointModule].
+    exports: [Bs4BreakpointModuležž]
+})
+class { ... }
+```
 
-**include it**
+Create function insde your component  class to listen changes"ž
 
-    ...
-    directives: [Bs4BreakpointsComponent]
-    ...
+```ts
+@Component(...)
+class ExampleComponent {
 
-function in class component
-
-    newBreakpoint(e: Bs4BreakPoint) {
+    newBreakpoint(e: Breakpoint) {
           // breakpoint detected
     }
 
-in html:
+}
+    
+```
+put  **bs4-breakpoint** tag in component template:
 
-    <bs4-breakpoints (changed)="newBreakpoint($event)" ></bs4-breakpoints>
-
+```html
+    <bs4-breakpoint (changed)="newBreakpoint($event)" ></bs4-breakpoint>
+```
 
