@@ -5,6 +5,11 @@ Detect breakpoint in bootstrap 4  :
 
 How to use it
 -------------
+install it
+```
+npm i bs4-breakpoint
+```
+
 
 **import it**
 
