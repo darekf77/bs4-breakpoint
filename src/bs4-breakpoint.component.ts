@@ -36,7 +36,7 @@ export class Bs4BreakpointsComponent implements AfterViewInit {
         this.resize.emit({ width: this.width, height: this.height });
     }
 
-    isVisible(obj): boolean {
+    isVisible(obj: Element): boolean {
         let style = window.getComputedStyle(obj, undefined);
         return style.display === 'block';
     }

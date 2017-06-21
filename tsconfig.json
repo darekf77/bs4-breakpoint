@@ -6,12 +6,13 @@
     "experimentalDecorators": true,
     "sourceMap": true,
     "noEmitHelpers": true,
-    "jsx": "react"
+    "declaration": true
   },
   "exclude": [
     "node_modules",
     "typings/main.d.ts",
-    "typings/main"
+    "typings/main",
+    "preview"
   ],
   "filesGlob": [
     "./ng2-rest.ts",
@@ -19,7 +20,10 @@
     "./test/**/*.ts",
     "!./node_modules/**/*.ts",
     "src/custom-typings.d.ts",
-    "typings/browser.d.ts"    
+    "typings/browser.d.ts",
+    "preview",
+    "docs",
+    "dist"
   ],
   "awesomeTypescriptLoaderOptions": {
     "resolveGlobs": true,
@@ -27,5 +31,8 @@
   },
   "compileOnSave": true,
   "buildOnSave": true,
-  "atom": { "rewriteTsconfig": false }
+  "atom": {
+    "rewriteTsconfig": false
+  }
 }
+

@@ -21,7 +21,12 @@ npm-debug.log*
 /tsd_typings/
 
 
-/bs3-breakpoint.js
-/bs3-breakpoint.js.map
 /src/**/*.js
 /src/**/*.js.map
+/src/**/*.d.ts
+index.js
+index.js.map
+index.js.d.ts
+
+
+/aot

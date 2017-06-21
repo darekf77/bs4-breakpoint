@@ -1,0 +1,8 @@
+
+
+/aot
+/scripts
+
+/src/**/*.ts
+!/src/**/*.d.ts
+
