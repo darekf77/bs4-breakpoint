@@ -16,7 +16,7 @@ npm i bs4-breakpoint
 ```ts
 @NgModule({
     imports: [Bs4BreakpointModule].
-    exports: [Bs4BreakpointModuležž]
+    exports: [Bs4BreakpointModule]
 })
 class { ... }
 ```
