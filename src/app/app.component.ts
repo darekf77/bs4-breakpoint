@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { BreakPoint } from 'components';
 import { EnumValues } from 'enum-values';
+import { Observable } from 'rxjs/Observable';
+import { SwUpdate } from '@angular/service-worker';
+
 
 @Component({
   selector: 'app-root',
@@ -9,10 +12,29 @@ import { EnumValues } from 'enum-values';
 })
 export class AppComponent implements OnInit {
 
-  constructor() { }
+  public value: Observable<string>;
+
+  constructor(
+    private swUpdate: SwUpdate,
+  ) {
+
+  }
 
   ngOnInit() {
+
+    if (this.swUpdate.isEnabled) {
+
+      this.swUpdate.available.subscribe(() => {
+
+        if (confirm("New version available. Load New Version?")) {
+          window.location.reload();
+        }
+
+      });
+
+    }
   }
+
   breakpoint: BreakPoint;
   breakpointString: string;
   resize(breakpoint: BreakPoint) {

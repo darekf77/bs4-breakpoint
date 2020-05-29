@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1590786723668,
+  "timestamp": 1590789272661,
   "index": "bs4-breakpoint/index.html",
   "assetGroups": [
     {
@@ -9,17 +9,14 @@
       "updateMode": "prefetch",
       "urls": [
         "bs4-breakpoint/index.html",
-        "bs4-breakpoint/main-es2015.js",
-        "bs4-breakpoint/main-es5.js",
+        "bs4-breakpoint/main-es2015.c433a38c7bece21f95ff.js",
+        "bs4-breakpoint/main-es5.c433a38c7bece21f95ff.js",
         "bs4-breakpoint/manifest.webmanifest",
-        "bs4-breakpoint/polyfills-es2015.js",
-        "bs4-breakpoint/polyfills-es5.js",
-        "bs4-breakpoint/runtime-es2015.js",
-        "bs4-breakpoint/runtime-es5.js",
-        "bs4-breakpoint/styles-es2015.js",
-        "bs4-breakpoint/styles-es5.js",
-        "bs4-breakpoint/vendor-es2015.js",
-        "bs4-breakpoint/vendor-es5.js"
+        "bs4-breakpoint/polyfills-es2015.d745af4be78cae01078d.js",
+        "bs4-breakpoint/polyfills-es5.46aa3e2c2c0e412a5061.js",
+        "bs4-breakpoint/runtime-es2015.291fcebb75fc7a211da7.js",
+        "bs4-breakpoint/runtime-es5.291fcebb75fc7a211da7.js",
+        "bs4-breakpoint/styles.0585c3a3d71f52e74b9b.css"
       ],
       "patterns": []
     },
@@ -33,18 +30,15 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "bs4-breakpoint/index.html": "6d9bb1991acb0d15f05287bab45852cd6aa1c475",
-    "bs4-breakpoint/main-es2015.js": "5541c11fc9f90c2bd8a2e9ae5ffcb36d90281b93",
-    "bs4-breakpoint/main-es5.js": "10d1d051f4bf2bd76e5d83494b44244d724d6843",
+    "bs4-breakpoint/index.html": "b146a3016a38024d4c617bbd73da150044f24517",
+    "bs4-breakpoint/main-es2015.c433a38c7bece21f95ff.js": "3729ce4abfd487c876935bfe810ad799bbff3931",
+    "bs4-breakpoint/main-es5.c433a38c7bece21f95ff.js": "a0de3f7cf54c5ac69e41d05bbe4394c17f5b672e",
     "bs4-breakpoint/manifest.webmanifest": "5f33b495456acb6e82f065ff4fa44dcc9c307bd7",
-    "bs4-breakpoint/polyfills-es2015.js": "f668c7f4d320a3918bacc56ab8e7bd02aed57d99",
-    "bs4-breakpoint/polyfills-es5.js": "f156324222b2fb4d687058807afc9872e926e405",
-    "bs4-breakpoint/runtime-es2015.js": "c27a19a0c937e2b87a604560d34cd277072daef2",
-    "bs4-breakpoint/runtime-es5.js": "f289cfd699eea8098c5fa10afa97fb9bc1a57498",
-    "bs4-breakpoint/styles-es2015.js": "9ccd4fbb16d0e79e5086d23a06924ab97b532b46",
-    "bs4-breakpoint/styles-es5.js": "a2298c445604f6543078f6db598e1f949483e357",
-    "bs4-breakpoint/vendor-es2015.js": "24eb6b134a971a459c6b5784404b85981b9785bd",
-    "bs4-breakpoint/vendor-es5.js": "5cd3a50d7730ed02ec85d8a7a1b0ddaaafa88418"
+    "bs4-breakpoint/polyfills-es2015.d745af4be78cae01078d.js": "2e7914d8ba6e636ec2dd978a48202306263a252c",
+    "bs4-breakpoint/polyfills-es5.46aa3e2c2c0e412a5061.js": "50c6d406c3017e23c8e33bfb62adf47704a46c4a",
+    "bs4-breakpoint/runtime-es2015.291fcebb75fc7a211da7.js": "8fa0f1104722967d17ff31db8a086e9967381682",
+    "bs4-breakpoint/runtime-es5.291fcebb75fc7a211da7.js": "8fa0f1104722967d17ff31db8a086e9967381682",
+    "bs4-breakpoint/styles.0585c3a3d71f52e74b9b.css": "1e61cf3f2381ce76d579676c8e2121cc977d2588"
   },
   "navigationUrls": [
     {
