@@ -1,0 +1,67 @@
+{
+  "configVersion": 1,
+  "timestamp": 1590786723668,
+  "index": "bs4-breakpoint/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "bs4-breakpoint/index.html",
+        "bs4-breakpoint/main-es2015.js",
+        "bs4-breakpoint/main-es5.js",
+        "bs4-breakpoint/manifest.webmanifest",
+        "bs4-breakpoint/polyfills-es2015.js",
+        "bs4-breakpoint/polyfills-es5.js",
+        "bs4-breakpoint/runtime-es2015.js",
+        "bs4-breakpoint/runtime-es5.js",
+        "bs4-breakpoint/styles-es2015.js",
+        "bs4-breakpoint/styles-es5.js",
+        "bs4-breakpoint/vendor-es2015.js",
+        "bs4-breakpoint/vendor-es5.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "bs4-breakpoint/index.html": "6d9bb1991acb0d15f05287bab45852cd6aa1c475",
+    "bs4-breakpoint/main-es2015.js": "5541c11fc9f90c2bd8a2e9ae5ffcb36d90281b93",
+    "bs4-breakpoint/main-es5.js": "10d1d051f4bf2bd76e5d83494b44244d724d6843",
+    "bs4-breakpoint/manifest.webmanifest": "5f33b495456acb6e82f065ff4fa44dcc9c307bd7",
+    "bs4-breakpoint/polyfills-es2015.js": "f668c7f4d320a3918bacc56ab8e7bd02aed57d99",
+    "bs4-breakpoint/polyfills-es5.js": "f156324222b2fb4d687058807afc9872e926e405",
+    "bs4-breakpoint/runtime-es2015.js": "c27a19a0c937e2b87a604560d34cd277072daef2",
+    "bs4-breakpoint/runtime-es5.js": "f289cfd699eea8098c5fa10afa97fb9bc1a57498",
+    "bs4-breakpoint/styles-es2015.js": "9ccd4fbb16d0e79e5086d23a06924ab97b532b46",
+    "bs4-breakpoint/styles-es5.js": "a2298c445604f6543078f6db598e1f949483e357",
+    "bs4-breakpoint/vendor-es2015.js": "24eb6b134a971a459c6b5784404b85981b9785bd",
+    "bs4-breakpoint/vendor-es5.js": "5cd3a50d7730ed02ec85d8a7a1b0ddaaafa88418"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
