@@ -20,7 +20,7 @@ export class Bs4BreakpointsComponent implements AfterViewInit {
   @Output() changed: EventEmitter<BreakPoint> = new EventEmitter<BreakPoint>();
   @Output() resize: EventEmitter<Size> = new EventEmitter<Size>();
 
-  current: BreakPoint = BreakPoint.xl;
+  current: BreakPoint;
   width: number;
   height: number;
   constructor(private e: ElementRef) { }
@@ -66,6 +66,11 @@ export class Bs4BreakpointsComponent implements AfterViewInit {
     return false;
   }
 
+  ngOnInit(): void {
+    if (this.check()) {
+      this.changed.emit(this.current);
+    }
+  }
 
   ngAfterViewInit() {
     setTimeout(() => {

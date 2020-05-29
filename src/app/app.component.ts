@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { BreakPoint } from 'components';
+import { EnumValues } from 'enum-values';
 
 @Component({
   selector: 'app-root',
@@ -11,9 +13,12 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
   }
-
-  resize(breakpoint) {
-    debugger
+  breakpoint: BreakPoint;
+  breakpointString: string;
+  resize(breakpoint: BreakPoint) {
+    this.breakpoint = breakpoint;
+    const b = EnumValues.getNameFromValue(BreakPoint, breakpoint);
+    this.breakpointString = b;
   }
 
 }
