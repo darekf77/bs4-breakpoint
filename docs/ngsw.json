@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1590790506830,
+  "timestamp": 1590790886109,
   "index": "bs4-breakpoint/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "bs4-breakpoint/favicon.ico",
         "bs4-breakpoint/index.html",
-        "bs4-breakpoint/main-es2015.c433a38c7bece21f95ff.js",
-        "bs4-breakpoint/main-es5.c433a38c7bece21f95ff.js",
+        "bs4-breakpoint/main-es2015.082ee7adcb1c03f323df.js",
+        "bs4-breakpoint/main-es5.082ee7adcb1c03f323df.js",
         "bs4-breakpoint/manifest.webmanifest",
         "bs4-breakpoint/polyfills-es2015.d745af4be78cae01078d.js",
         "bs4-breakpoint/polyfills-es5.46aa3e2c2c0e412a5061.js",
@@ -77,9 +77,9 @@
     "bs4-breakpoint/assets/icons/icon-72x72.png": "ffb654f4b76bf3d9d513c24c919c52687f4aa19b",
     "bs4-breakpoint/assets/icons/icon-96x96.png": "f5d3221ffc10d79dc352b6a3d9ee2b9a26ef2eff",
     "bs4-breakpoint/favicon.ico": "e95e293422f7950b1cc904ad7fbb0cdd8990d7cc",
-    "bs4-breakpoint/index.html": "aef061fa277f10e3df237ef0f006f30bcda6523e",
-    "bs4-breakpoint/main-es2015.c433a38c7bece21f95ff.js": "3729ce4abfd487c876935bfe810ad799bbff3931",
-    "bs4-breakpoint/main-es5.c433a38c7bece21f95ff.js": "a0de3f7cf54c5ac69e41d05bbe4394c17f5b672e",
+    "bs4-breakpoint/index.html": "c782f655e1ca2782bea2ae7714d804e732fc81c2",
+    "bs4-breakpoint/main-es2015.082ee7adcb1c03f323df.js": "b5e5e6d8da15d1c086e7fef52cf82373865c399a",
+    "bs4-breakpoint/main-es5.082ee7adcb1c03f323df.js": "39d1cc2c097dae19e84baa99f4e9590e5fdb682c",
     "bs4-breakpoint/manifest.webmanifest": "5f33b495456acb6e82f065ff4fa44dcc9c307bd7",
     "bs4-breakpoint/polyfills-es2015.d745af4be78cae01078d.js": "2e7914d8ba6e636ec2dd978a48202306263a252c",
     "bs4-breakpoint/polyfills-es5.46aa3e2c2c0e412a5061.js": "50c6d406c3017e23c8e33bfb62adf47704a46c4a",
