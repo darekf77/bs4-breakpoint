@@ -1,6 +1,5 @@
-
 import { NgModule } from '@angular/core';
-import { Bs4BreakpointsComponent } from "./bs4-breakpoint.component";
+import { Bs4BreakpointsComponent } from './bs4-breakpoint.component';
 
 
 
@@ -11,4 +10,3 @@ import { Bs4BreakpointsComponent } from "./bs4-breakpoint.component";
     providers: [],
 })
 export class Bs4BreakpointModule { }
-

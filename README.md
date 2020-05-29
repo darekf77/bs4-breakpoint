@@ -1,7 +1,5 @@
 ## bs4-breakpoint ##
-
-
-Detect breakpoint in bootstrap 4  :
+Detect breakpoint in bootstrap 4:
 
 How to use it
 -------------
@@ -15,13 +13,12 @@ npm i bs4-breakpoint
 
 ```ts
 @NgModule({
-    imports: [Bs4BreakpointModule].
-    exports: [Bs4BreakpointModule]
+    imports: [Bs4BreakpointModule],
 })
 class { ... }
 ```
 
-Create function insde your component  class to listen changes"ž
+Create function insde your component  class to listen changes
 
 ```ts
 @Component(...)
