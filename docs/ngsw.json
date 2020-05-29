@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1590789272661,
+  "timestamp": 1590789464674,
   "index": "bs4-breakpoint/index.html",
   "assetGroups": [
     {
@@ -30,7 +30,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "bs4-breakpoint/index.html": "b146a3016a38024d4c617bbd73da150044f24517",
+    "bs4-breakpoint/index.html": "16413c072d1ad2908e31142e44c4ab6640bfd096",
     "bs4-breakpoint/main-es2015.c433a38c7bece21f95ff.js": "3729ce4abfd487c876935bfe810ad799bbff3931",
     "bs4-breakpoint/main-es5.c433a38c7bece21f95ff.js": "a0de3f7cf54c5ac69e41d05bbe4394c17f5b672e",
     "bs4-breakpoint/manifest.webmanifest": "5f33b495456acb6e82f065ff4fa44dcc9c307bd7",
