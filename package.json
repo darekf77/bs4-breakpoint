@@ -31,7 +31,7 @@
     ]
   },
   "name": "bs4-breakpoint",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "description": "Detect breakpoint in anuglar2+ apps (bootstrap 4 grid) ",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -254,7 +254,7 @@
     "svg-png-converter": "0.0.9",
     "systeminformation": "^3.45.7",
     "task.js": "^0.1.5",
-    "tnp-config": "~0.0.32",
+    "tnp-config": "~0.0.33",
     "tnp-db": "~0.0.18",
     "tnp-helpers": "~0.0.20",
     "tnp-models": "~0.0.18",
