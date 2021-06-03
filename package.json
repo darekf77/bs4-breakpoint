@@ -126,7 +126,7 @@
     "bcryptjs": "2.4.3",
     "body-parser": "^1.18.2",
     "bootstrap": "4.3.1",
-    "bs4-breakpoint": "~2.0.18",
+    "bs4-breakpoint": "~2.0.19",
     "buffer-shims": "^1.0.0",
     "button-dropdown": "~1.0.24",
     "callsite-record": "4.1.3",
@@ -288,5 +288,5 @@
   },
   "dependencies": {},
   "private": false,
-  "lastBuildTagHash": "b0f6118d6ffe8c1844d897be827771060515c35f"
+  "lastBuildTagHash": "86a4926b8cad7b59c87b151df3a4307bb5a86d39"
 }
