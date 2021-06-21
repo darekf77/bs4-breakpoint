@@ -3,7 +3,6 @@
     "tsconfig.browser.json.filetemplate": true,
     "tsconfig.isomorphic.json.filetemplate": true,
     "node_modules": true,
-    "tnp-system-path.txt": true,
     "tmp*": true,
     "dist*": true,
     "bundle*": true,
@@ -32,6 +31,7 @@
     "src/index.html": true,
     "src/manifest.webmanifest": true,
     "tsconfig.browser.json": true,
+    "components/tsconfig.json": true,
     ".npmrc": true,
     "tslint.json": true,
     ".editorconfig": true,
@@ -56,9 +56,10 @@
     ".gitignore": true,
     ".npmignore": true,
     ".babelrc": true,
+    "package.json_devDependencies.json": true,
+    "package.json": true,
     "docs": true,
-    "logo.svg": true,
-    "bin/db.json": false
+    "logo.svg": true
   },
   "workbench.colorCustomizations": {
     "activityBar.background": "#d11ab3",

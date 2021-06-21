@@ -11,12 +11,14 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
+/tests-environments
 
 # System Files
 .DS_Store
 Thumbs.db
+
+
 /node_modules
-/tnp-system-path.txt
 /tmp*
 /dist*
 /bundle*
@@ -46,6 +48,7 @@ Thumbs.db
 /src/manifest.webmanifest
 /tsconfig.browser.json
 /tsconfig.isomorphic.json
+/components/tsconfig.json
 /src/tsconfig.app.json
 /.npmrc
 /tslint.json
@@ -72,6 +75,7 @@ Thumbs.db
 /src/polyfills.ts
 /protractor.conf.js
 /karma.conf.js
+/src/index.html
 
 
 
