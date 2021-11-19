@@ -27,5 +27,6 @@
     "angular",
     "breakpoints",
     "bootstrap4"
-  ]
+  ],
+  "workerPlugins": {}
 }
