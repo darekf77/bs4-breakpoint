@@ -34,6 +34,7 @@ Thumbs.db
 /npm-debug.log*
 /.sass-cache
 /.sourcemaps
+/tsconfig.ng.json
 /tsconfig.isomorphic.json
 /tsconfig.json
 /src/tsconfig.app.json
@@ -58,6 +59,7 @@ Thumbs.db
 /index.js.map
 /tsconfig.browser.json
 /karma.conf.js.filetemplate
+/tsconfig.ng.json.filetemplate
 /tsconfig.isomorphic.json.filetemplate
 /tsconfig.json.filetemplate
 /.vscode/launch.json.filetemplate

@@ -15,24 +15,24 @@ export class AppComponent implements OnInit {
   public value: Observable<string>;
 
   constructor(
-    private swUpdate: SwUpdate,
+    // private swUpdate: SwUpdate,
   ) {
 
   }
 
   ngOnInit() {
 
-    if (this.swUpdate.isEnabled) {
+    // if (this.swUpdate.isEnabled) {
 
-      this.swUpdate.available.subscribe(() => {
+    //   this.swUpdate.available.subscribe(() => {
 
-        if (confirm("New version available. Load New Version?")) {
-          window.location.reload();
-        }
+    //     if (confirm("New version available. Load New Version?")) {
+    //       window.location.reload();
+    //     }
 
-      });
+    //   });
 
-    }
+    // }
   }
 
   breakpoint: BreakPoint;

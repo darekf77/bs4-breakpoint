@@ -13,10 +13,10 @@ console.log(`Worker path: ${workrPath}`)
     BrowserModule,
     CommonModule,
     Bs4BreakpointModule,
-    ServiceWorkerModule.register(workrPath, {
-      enabled: true,
-      registrationStrategy: 'registerImmediately'
-    }),
+    // ServiceWorkerModule.register(workrPath, {
+    //   enabled: true,
+    //   registrationStrategy: 'registerImmediately'
+    // }),
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent]
