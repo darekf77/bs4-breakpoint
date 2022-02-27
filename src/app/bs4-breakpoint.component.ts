@@ -2,7 +2,7 @@
 import { Component, OnInit } from '@angular/core';
 import { EnumValues } from 'enum-values/src/enumValues';
 
-import { BreakPoint } from '../components/bs4-breakpoint.enum';
+import { BreakPoint } from '../lib/bs4-breakpoint.enum';
 import { Observable } from 'rxjs';
 
 @Component({
