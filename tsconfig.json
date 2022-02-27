@@ -1,12 +1,9 @@
 {
-  "extends": "./tsconfig.base.json",
+  "extends": "./tsconfig.isomorphic.json",
   "compilerOptions": {
-    "baseUrl": "src",
-    "paths": {
-      "components": [
-        "../components"
-      ]
-    }
+    "rootDir": "./src"
   },
-  "exclude": []
+  "include": [
+    "src/**/*"
+  ]
 }

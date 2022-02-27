@@ -1,0 +1,32 @@
+{
+  "resources": [],
+  "overrided": {
+    "ignoreDepsPattern": [],
+    "includeAsDev": "*",
+    "includeOnly": [],
+    "dependencies": {},
+    "linkedFolders": []
+  },
+  "linkedProjects": [],
+  "libReleaseOptions": {
+    "nodts": false,
+    "obscure": false,
+    "ugly": false
+  },
+  "type": "isomorphic-lib",
+  "version": "v3",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": "Detect breakpoint in anuglar2+ apps (bootstrap 4 grid) ",
+  "author": "Dariusz Filipiak",
+  "homepage": "https://github.com/darekf77/bs4-breakpoint#readme",
+  "keywords": [
+    "angular",
+    "breakpoints",
+    "bootstrap4"
+  ],
+  "workerPlugins": {}
+}
