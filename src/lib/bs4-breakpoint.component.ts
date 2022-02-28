@@ -59,6 +59,7 @@ export class Bs4BreakpointsComponent implements AfterViewInit {
       t = BreakPoint.xl;
     }
     if (t !== this.current) {
+      // @ts-ignore
       this.current = t;
       return true;
     }
