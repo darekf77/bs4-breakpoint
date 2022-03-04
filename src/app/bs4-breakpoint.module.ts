@@ -8,6 +8,7 @@ import { Bs4BreakpointModule as BootstrapBreakpointModule  } from '../lib/bs4-br
     CommonModule,
     BootstrapBreakpointModule,
   ],
-  declarations: [Bs4BreakpointComponent]
+  declarations: [Bs4BreakpointComponent],
+  exports: [Bs4BreakpointComponent]
 })
 export class Bs4BreakpointModule { }

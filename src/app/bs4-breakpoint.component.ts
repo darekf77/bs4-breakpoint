@@ -40,6 +40,7 @@ export class Bs4BreakpointComponent implements OnInit {
   resize(breakpoint: BreakPoint) {
     this.breakpoint = breakpoint;
     const b = EnumValues.getNameFromValue(BreakPoint, breakpoint);
+    // @ts-ignore
     this.breakpointString = b;
   }
 }
