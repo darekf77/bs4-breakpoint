@@ -1,5 +1,5 @@
 //#region @browser
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { EnumValues } from 'enum-values/src/enumValues';
 
 import { BreakPoint } from '../lib/bs4-breakpoint.enum';
@@ -8,7 +8,8 @@ import { Observable } from 'rxjs';
 @Component({
   selector: 'app-bs4-breakpoint',
   templateUrl: './bs4-breakpoint.component.html',
-  styleUrls: ['./bs4-breakpoint.component.css']
+  styleUrls: ['./bs4-breakpoint.component.scss'],
+  encapsulation: ViewEncapsulation.None,
 })
 export class Bs4BreakpointComponent implements OnInit {
 

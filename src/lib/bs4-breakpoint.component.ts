@@ -2,6 +2,7 @@ import {
   Component, OnInit, ElementRef, Output, NgZone,
   EventEmitter, HostListener, AfterViewInit
 } from '@angular/core';
+import { fromEvent, Subject, takeUntil } from 'rxjs';
 
 import { BreakPoint } from './bs4-breakpoint.enum';
 import { Size } from './size.enum';
@@ -24,9 +25,11 @@ export class Bs4BreakpointsComponent implements AfterViewInit {
   width: number;
   height: number;
   constructor(private e: ElementRef) { }
+  destroy$ = new Subject<void>();
+  resizeObservable$ = fromEvent(window, 'resize').pipe(
+    takeUntil(this.destroy$)
+  )
 
-
-  @HostListener('window:resize')
   onWindowResize() {
     this.width = window.innerWidth;
     this.height = window.innerHeight;
@@ -67,16 +70,30 @@ export class Bs4BreakpointsComponent implements AfterViewInit {
     return false;
   }
 
-  ngOnInit(): void {
+  notify() {
     if (this.check()) {
-      this.changed.emit(this.current);
+      setTimeout(() => {
+        this.changed.emit(this.current);
+      })
     }
+  }
+
+  ngOnInit(): void {
+    this.notify();
   }
 
   ngAfterViewInit() {
     setTimeout(() => {
       this.onWindowResize();
+      this.resizeObservable$.subscribe(() => {
+        this.notify();
+      })
     })
+  }
+
+  ngOnDestroy(): void {
+    this.destroy$.next();
+    this.destroy$.unsubscribe();
   }
 
 }
