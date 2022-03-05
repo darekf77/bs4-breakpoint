@@ -1,26 +1,23 @@
 {
   "configVersion": 1,
-  "timestamp": 1590850538341,
+  "timestamp": 1646497056121,
   "index": "bs4-breakpoint/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "bs4-breakpoint/favicon.ico",
         "bs4-breakpoint/index.html",
-        "bs4-breakpoint/main-es2015.js",
-        "bs4-breakpoint/main-es5.js",
+        "bs4-breakpoint/main.12722b02f1376e3b.js",
         "bs4-breakpoint/manifest.webmanifest",
-        "bs4-breakpoint/polyfills-es2015.js",
-        "bs4-breakpoint/polyfills-es5.js",
-        "bs4-breakpoint/runtime-es2015.js",
-        "bs4-breakpoint/runtime-es5.js",
-        "bs4-breakpoint/styles-es2015.js",
-        "bs4-breakpoint/styles-es5.js",
-        "bs4-breakpoint/vendor-es2015.js",
-        "bs4-breakpoint/vendor-es5.js"
+        "bs4-breakpoint/polyfills.1a54905f1fc85a3f.js",
+        "bs4-breakpoint/runtime.231e96734c9fdc57.js",
+        "bs4-breakpoint/styles.ef46db3751d8e999.css"
       ],
       "patterns": []
     },
@@ -28,6 +25,9 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "bs4-breakpoint/assets/favicons/android-chrome-192x192.png",
         "bs4-breakpoint/assets/favicons/android-chrome-512x512.png",
@@ -71,27 +71,21 @@
     "bs4-breakpoint/assets/favicons/mstile-70x70.png": "a935aa7fa389380d0e96653aebb5d66132620a33",
     "bs4-breakpoint/assets/favicons/safari-pinned-tab.svg": "2cbb01437e514576d67ec4bfcb6b4592f11eb491",
     "bs4-breakpoint/assets/favicons/site.webmanifest": "13e5aa58eb2182d8ace63266856c8cc29c47c083",
-    "bs4-breakpoint/assets/icons/icon-128x128.png": "c16ccad73e865cc47faf69cc1266ff3d264ac02c",
-    "bs4-breakpoint/assets/icons/icon-144x144.png": "599c35f47314846c172b4bc60e412e7eafecc604",
-    "bs4-breakpoint/assets/icons/icon-152x152.png": "2117e46ccb23c7f53672a318381180b2848ae325",
-    "bs4-breakpoint/assets/icons/icon-192x192.png": "98e11c64790acdf1629161ee1b3d1d141f81558f",
-    "bs4-breakpoint/assets/icons/icon-384x384.png": "386c474ff35cf4e1a57c72bdd098682dda016f54",
-    "bs4-breakpoint/assets/icons/icon-512x512.png": "7ae658ca931c201711f2dcd6426951ac543bc03f",
-    "bs4-breakpoint/assets/icons/icon-72x72.png": "ffb654f4b76bf3d9d513c24c919c52687f4aa19b",
-    "bs4-breakpoint/assets/icons/icon-96x96.png": "f5d3221ffc10d79dc352b6a3d9ee2b9a26ef2eff",
-    "bs4-breakpoint/favicon.ico": "e95e293422f7950b1cc904ad7fbb0cdd8990d7cc",
-    "bs4-breakpoint/index.html": "45cee1d11744bddf1a873dce2ddf4397f5cf85c1",
-    "bs4-breakpoint/main-es2015.js": "736a19d133d1552fc5b8479a073b4f0acdfb1610",
-    "bs4-breakpoint/main-es5.js": "e7edc8f1bb3093e98ef9e3520a66daabb78c22cb",
-    "bs4-breakpoint/manifest.webmanifest": "5f33b495456acb6e82f065ff4fa44dcc9c307bd7",
-    "bs4-breakpoint/polyfills-es2015.js": "f668c7f4d320a3918bacc56ab8e7bd02aed57d99",
-    "bs4-breakpoint/polyfills-es5.js": "f156324222b2fb4d687058807afc9872e926e405",
-    "bs4-breakpoint/runtime-es2015.js": "c27a19a0c937e2b87a604560d34cd277072daef2",
-    "bs4-breakpoint/runtime-es5.js": "f289cfd699eea8098c5fa10afa97fb9bc1a57498",
-    "bs4-breakpoint/styles-es2015.js": "9ccd4fbb16d0e79e5086d23a06924ab97b532b46",
-    "bs4-breakpoint/styles-es5.js": "a2298c445604f6543078f6db598e1f949483e357",
-    "bs4-breakpoint/vendor-es2015.js": "aa786d8b82dad989dfef8bbc9ab695510cd5919d",
-    "bs4-breakpoint/vendor-es5.js": "7d2d91fc7af7bd0694938f86f945f1ef3d835523"
+    "bs4-breakpoint/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "bs4-breakpoint/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "bs4-breakpoint/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "bs4-breakpoint/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "bs4-breakpoint/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "bs4-breakpoint/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "bs4-breakpoint/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "bs4-breakpoint/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "bs4-breakpoint/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "bs4-breakpoint/index.html": "df6cfc561d4964566b4d8d8724aa411cb23c3aca",
+    "bs4-breakpoint/main.12722b02f1376e3b.js": "f682306da0e714f320a52cc4457f658a225d3791",
+    "bs4-breakpoint/manifest.webmanifest": "9ab28d4209cc57b5c7b09776c29115ccb6abf966",
+    "bs4-breakpoint/polyfills.1a54905f1fc85a3f.js": "1e20b0ee314fc332706cf298ee5c304cdc88bb9e",
+    "bs4-breakpoint/runtime.231e96734c9fdc57.js": "7b949fafcdcfe1cb54b0460d09f1a6fe3b0d3864",
+    "bs4-breakpoint/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
     {
@@ -110,5 +104,6 @@
       "positive": false,
       "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
     }
-  ]
+  ],
+  "navigationRequestStrategy": "performance"
 }

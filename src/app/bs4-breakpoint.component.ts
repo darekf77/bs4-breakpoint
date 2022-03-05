@@ -5,6 +5,9 @@ import { EnumValues } from 'enum-values/src/enumValues';
 import { BreakPoint } from '../lib/bs4-breakpoint.enum';
 import { Observable } from 'rxjs';
 
+// @ts-ignore
+console.log(window.ENV)
+
 @Component({
   selector: 'app-bs4-breakpoint',
   templateUrl: './bs4-breakpoint.component.html',
