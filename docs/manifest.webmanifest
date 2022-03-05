@@ -1,6 +1,6 @@
 {
-  "name": "app",
-  "short_name": "app",
+  "name": "Bs 4 Breakpoint",
+  "short_name": "bs4-breakpoint",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",

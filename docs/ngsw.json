@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1646521769500,
+  "timestamp": 1646521992364,
   "index": "bs4-breakpoint/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "bs4-breakpoint/favicon.ico",
         "bs4-breakpoint/index.html",
-        "bs4-breakpoint/main.22510c5d0f0dccb2.js",
+        "bs4-breakpoint/main.e45e071cfa6a3182.js",
         "bs4-breakpoint/manifest.webmanifest",
         "bs4-breakpoint/polyfills.1a54905f1fc85a3f.js",
         "bs4-breakpoint/runtime.a60b35501e8742df.js",
@@ -80,9 +80,9 @@
     "bs4-breakpoint/assets/icons/icon-72x72.png": "ffb654f4b76bf3d9d513c24c919c52687f4aa19b",
     "bs4-breakpoint/assets/icons/icon-96x96.png": "f5d3221ffc10d79dc352b6a3d9ee2b9a26ef2eff",
     "bs4-breakpoint/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "bs4-breakpoint/index.html": "a3d59470450adb601c8889a37bf8a09413524713",
-    "bs4-breakpoint/main.22510c5d0f0dccb2.js": "f79e8bf886dc54a6bdd45097184335d4d4446f77",
-    "bs4-breakpoint/manifest.webmanifest": "fb373f7b1a2662c1236f0ee2a59db0787106c6a0",
+    "bs4-breakpoint/index.html": "0b7b29353b86fb8fcb2911630d01743940ad8d79",
+    "bs4-breakpoint/main.e45e071cfa6a3182.js": "c4ec4c5241a28fc5943f8a39eba7f429003f1a4b",
+    "bs4-breakpoint/manifest.webmanifest": "115f2c02876f822c3cfb43d9a54ca1662685d1c8",
     "bs4-breakpoint/polyfills.1a54905f1fc85a3f.js": "1e20b0ee314fc332706cf298ee5c304cdc88bb9e",
     "bs4-breakpoint/runtime.a60b35501e8742df.js": "3e85bae11bc35c24fee8675a0b67dc26badbd8c7",
     "bs4-breakpoint/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
