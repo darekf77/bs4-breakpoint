@@ -1,6 +1,6 @@
 {
   "name": "bs4-breakpoint",
-  "version": "2.0.43",
+  "version": "13.0.0",
   "description": "Detect breakpoint in anuglar2+ apps (bootstrap 4 grid) ",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
