@@ -22,5 +22,6 @@
   "homepage": "https://github.com/darekf77/bs4-breakpoint#readme",
   "dependencies": {},
   "private": false,
-  "lastBuildTagHash": "bdad352066a6fc6c0ca90c77fb29b7f1bee4ae78"
+  "lastBuildTagHash": "bdad352066a6fc6c0ca90c77fb29b7f1bee4ae78",
+  "devDependencies": {}
 }
