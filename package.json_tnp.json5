@@ -2,7 +2,7 @@
   "resources": [],
   "overrided": {
     "ignoreDepsPattern": [],
-    "includeAsDev": "*",
+    "includeAsDev": [],
     "includeOnly": [],
     "dependencies": {},
     "linkedFolders": []
