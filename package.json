@@ -99,7 +99,7 @@
     "better-sqlite3": "7.5.1",
     "body-parser": "1.18.2",
     "bootstrap": "5.1.3",
-    "bs4-breakpoint": "13.0.26",
+    "bs4-breakpoint": "13.0.27",
     "buffer-shims": "1.0.0",
     "callsite-record": "4.1.3",
     "chai": "4.2.0",
@@ -253,6 +253,6 @@
     "zone.js": "~0.11.4"
   },
   "private": false,
-  "lastBuildTagHash": "603305aa1b3027e769ef3a263a4f513311f019f4",
+  "lastBuildTagHash": "b92c3f36989177e15f4a76e7258f1e89b34b6334",
   "devDependencies": {}
 }
