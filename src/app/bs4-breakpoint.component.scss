@@ -1,3 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+:host {
+  display: block;
+}
+
+.top {
+  background           : transparent;
+  // -webkit-box-shadow: 0 6px 14px -4px black;
+  // -moz-box-shadow   : 0 6px 14px -4px black;
+  box-shadow           : -12px 6px 14px -14px black;
+
+  span {
+    position     : relative;
+    margin-left  : 20px;
+  }
+
+
+  img {
+    display: inline-block;
+  }
+}
+
+
+.header {
+  padding: 20px;
+}

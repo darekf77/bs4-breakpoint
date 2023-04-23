@@ -1,8 +1,6 @@
 ## bs4-breakpoint ##
 Detect breakpoint in bootstrap 4: 
 
-EXAMPLE: https://darekf77.github.io/bs4-breakpoint/
-
 How to use it
 -------------
 install it

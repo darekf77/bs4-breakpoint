@@ -1,18 +1,43 @@
-<h1>New bootstrap breakpoints library</h1>
-<div class="container">
-  <div class="card"
-       style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title">current breakpoint: <h1>{{breakpointString}} - value: {{breakpoint}} </h1>
-      </h5>
-      <p class="card-text"> Have a good day ! <br><br>
-        <a href="https://github.com/darekf77/bs4-breakpoint">https://github.com/darekf77/bs4-breakpoint</a>
-      </p>
-      <a href="https://www.paypal.me/dariuszfilipiak"
-         class="btn btn-primary">buy hot coffee for darekf77 ?</a>
+<columns-container class="top">
+  <columns-gap></columns-gap>
+  <column grow
+          class="header">
+    <img src="src/assets/logo.png"
+         height="30px">
+    <span>
+      This is a demo of <strong>bs4-breakpoint</strong> angular component.
+    </span>
+  </column>
+  <columns-gap></columns-gap>
+  <column width="100"
+          showMobile> </column>
+
+</columns-container>
+<br>
+
+<columns-container>
+  <column grow>
+
+  </column>
+  <column width="300">
+    <div class="card"
+         style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">current breakpoint: <h1>{{breakpointString}} - value: {{breakpoint}} </h1>
+        </h5>
+        <p class="card-text"> Have a good day ! <br><br>
+          <a href="https://github.com/darekf77/bs4-breakpoint">https://github.com/darekf77/bs4-breakpoint</a>
+        </p>
+        <a href="https://www.paypal.me/dariuszfilipiak"
+           class="btn btn-primary">buy hot coffee for darekf77 ?</a>
+      </div>
     </div>
-  </div>
 
-  <bs4-breakpoint (changed)="resize($event)"></bs4-breakpoint>
+    <bs4-breakpoint (changed)="resize($event)"></bs4-breakpoint>
+  </column>
+  <column grow>
 
-</div>
+  </column>
+</columns-container>
+
+<firedev-github-fork-me-corner url="https://github.com/darekf77/bs4-breakpoint"></firedev-github-fork-me-corner>
