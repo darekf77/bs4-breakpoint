@@ -6,7 +6,8 @@
     "includeAsDev": [],
     "includeOnly": [],
     "dependencies": {},
-    "linkedFolders": []
+    "linkedFolders": [],
+    'npmFixes': [],
   },
 
   "linkedProjects": [],
