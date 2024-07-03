@@ -36,7 +36,7 @@
     "workerPlugins": {}
   },
   "name": "bs4-breakpoint",
-  "version": "13.0.34",
+  "version": "13.0.35",
   "description": "Detect breakpoint in anuglar2+ apps (bootstrap 4 grid) ",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
